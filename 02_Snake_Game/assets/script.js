@@ -1,10 +1,18 @@
 let inputDirection = { x: 0, y: 0 };
 const board = document.getElementById("board");
 const scoreElement = document.getElementById("score");
-const foodSound = new Audio("/02_Snake_Game/assets/music/eatSound.mp3");
-const moveSound = new Audio("/02_Snake_Game/assets/music/move.mp3");
-const gameOverSound = new Audio("/02_Snake_Game/assets/music/gameover.mp3");
-const musicSound = new Audio("/02_Snake_Game/assets/music/music.mp3");
+const foodSound = new Audio(
+  "https://github.com/PradipSable07/PROJECTS/tree/main/02_Snake_Game/assets/music/eatSound.mp3"
+);
+const moveSound = new Audio(
+  "https://github.com/PradipSable07/PROJECTS/tree/main/02_Snake_Game/assets/music/move.mp3"
+);
+const gameOverSound = new Audio(
+  "https://github.com/PradipSable07/PROJECTS/tree/main/02_Snake_Game/assets/music/gameover.mp3"
+);
+const musicSound = new Audio(
+  "https://github.com/PradipSable07/PROJECTS/tree/main/02_Snake_Game/assets/music/music.mp3"
+);
 const playPauseBtn = document.getElementById("play-pause-btn");
 let speed = 2;
 let score = 0;
